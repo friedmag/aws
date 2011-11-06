@@ -5,7 +5,7 @@ require 'rubygems'
 #require "rake/testtask"
 #require 'rcov/rcovtask'
 $: << File.dirname(__FILE__)
-require 'lib/right_aws.rb'
+require 'lib/aws.rb'
 
 testglobs = ["test/ts_right_aws.rb"]
 
